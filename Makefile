@@ -1,6 +1,6 @@
 ifneq ($(KERNELRELEASE),)
 		#call from kernel build system
-		obj-m := ofd.o 
+		obj-m := ofdc.o 
 else
 	 KERNELDIR ?= /lib/modules/$(shell uname -r)/build
 	 PWD			 := $(shell pwd)
